@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="TabbedPageWithNavigationPage.SchedulePage"
+			 Title="Credits">
+	<ContentPage.Content>
+		<StackLayout>
+            <Label Text="Hi this is the credit page. Credit goes to me, Daniel" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Button Text="View Credits Modal" Clicked="OnUpcomingAppointmentsButtonClicked" VerticalOptions="CenterAndExpand" ScaleX="1" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
